@@ -7,7 +7,7 @@
     <img src="images/logo.jfif" alt="Logo" width="320" height="320">
   </a>
 
-  <h3 align="center">Danishan Bot</h3>
+  <h3 align="center">Demogouge</h3>
 
   <p align="center">
     Gemini Pro and Gemini Vision Pro supported telegram Bot!
@@ -35,15 +35,15 @@
 
 
 
-<!-- Danishan Bot -->
+<!-- Demogouge Bot -->
 ## About the Project
 
-**Danishan Bot** is the telegram bot that can detect and speak with your 
+**Demogouge** is the telegram bot that can detect and speak with your 
 language as answer questions over text and image content, describe pictures 
 as you like. Bot is supported by Gemini Pro and Gemini Vision Pro models.
 
 
-Here's why Danishan should be used:
+Here's why Demogouge should be used:
 * Gemini is not available for some countries like Azerbaijan etc.. Using this bot You can access Gemini from anywhere you are
 * Gemini doesn't have large trainable data in terms of some languages. The bot firstly detect your language and translate it
 to English then create content in your language
@@ -75,7 +75,7 @@ In order to deploy the bot, [PythonAnywhere](https://www.pythonanywhere.com/) is
 
 <!-- DEMO -->
 ## Usage
-⚡How to use Danishan Bot :
+⚡How to use Demogouge :
 1) You can send any text content and I will reply with the language I receive.
 2) You can send image and caption any specific task and I will reply with the language I receive also.
 3)You can send image without any caption and I will reply back with the description of image.
@@ -100,7 +100,7 @@ If the image has not any caption I will reply back with the last language you us
 
 Aydin Firdouzov - [Linkedin](https://linkedin.com/in/firdouzov) - aydin.firdouzov@gmail.com
 
-Project Link: [Danishan Bot](https://github.com/firdouzov/danishan_bot)
+Project Link: [Demogouge](https://web.telegram.org/k/#@demogouge_bot)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
