@@ -78,7 +78,7 @@ In order to deploy the bot, [PythonAnywhere](https://www.pythonanywhere.com/) is
 ⚡How to use Demogouge :
 1) You can send any text content and I will reply with the language I receive.
 2) You can send image and caption any specific task and I will reply with the language I receive also.
-3)You can send image without any caption and I will reply back with the description of image.
+3) You can send image without any caption and I will reply back with the description of image.
 
 If the image has not any caption I will reply back with the last language you used. If any language is not recognized yet, by default I will reply with English. 
 
