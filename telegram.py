@@ -4,10 +4,11 @@ import flag
 import os
 import PIL.Image
 import google.generativeai as genai
-
 try:
-    bot=telebot.TeleBot('7073730848:AAESZdEMFEmUvUJrl7aNxIBKIOSFKca4d3s')
-    genai.configure(api_key='AIzaSyAs5_WHo7NXArFquWU0Zpe1sOX7Bkzkp2A')
+    bot_token=''
+    genai_token=''
+    bot=telebot.TeleBot(bot_token)
+    genai.configure(api_key=genai_token)
 
     safety_settings = [
     {
