@@ -121,24 +121,6 @@ try:
                 bot.reply_to(message,f'{flag.flag(lang)} - {translatedresponse}')
             except:
                 bot.reply_to(message,"There is some errors while generating content. Please try it again or contact '@firdouzov'")
-    '''@bot.message_handler(func=lambda message: True,content_types=['photo','text'])
-    def echo_image(message):
-        if message.content_type=='photo':
-            if message.caption is None:
-                caption=message.caption
-            else:
-                if '?' in message.caption:
-                    caption=message.caption.replace('?','')
-                else:
-                    caption=message.caption
-            file_path = bot.get_file(message.photo[0].file_id).file_path
-            file = bot.download_file(file_path)
-            with open("output.jpg", "wb") as code:
-        	    code.write(file)
-            img = PIL.Image.open('output.jpg')
-            response=genaiimage(img,caption)
-            translatedresposne=translateenaz(response)
-            bot.reply_to(message,translatedresposne)'''
     bot.infinity_polling(timeout=30, long_polling_timeout = 20)
 except ValueError:
     print("Sorry there are some contents in Azerbaijani Google blocks in order to uncertain reasons. Please use the English for like these cases or contact '@firdouzov'")
